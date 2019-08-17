@@ -12,7 +12,7 @@ $ git clone https://github.com/dadapush/bamboo-dadapush-notification-plugin.git
 $ cd bamboo-dadapush-notification-plugin
 $ mvn package
 ```
-* [Install plugin](https://confluence.atlassian.com/display/UPM/Installing+add-ons) into Bamboo
+* Install plugin into Bamboo
 * Setup Notifications for Build
   * Event: *All Builds Completed*
   * Recipient type: *DaDaPush*
