@@ -1,0 +1,3 @@
+[@ww.textfield labelKey="dadapush.basePath" name="basePath" value="${basePath!}" descriptionKey="dadapush.basePath.description" required='false'/]
+[@ww.textfield labelKey="dadapush.channelToken" name="channelToken" value="${channelToken!}" descriptionKey="dadapush.channelToken.description" required='true'/]
+[@ww.checkbox labelKey="dadapush.enable" name="enable" descriptionKey="dadapush.enable.description" value="${enable!?string}"/]

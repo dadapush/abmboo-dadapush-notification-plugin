@@ -1,0 +1,18 @@
+<atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}" plugins-version="2">
+  <plugin-info>
+    <description>${project.description}</description>
+    <version>${project.version}</version>
+    <vendor name="${project.organization.name}" url="${project.organization.url}"/>
+    <param name="atlassian-data-center-compatible">true</param>
+  </plugin-info>
+
+  <resource location="english" name="DaDaPush Language Pack" type="i18n"/>
+
+  <notificationRecipient class="com.dadapush.client.bamboo.DaDaPushNotificationRecipient"
+    key="recipient.dadapush"
+    name="DaDaPush Recipient" weight="10">
+    <description>DaDaPush</description>
+    <resource location="dadapushViewNotification.ftl" name="view" type="freemarker"/>
+    <resource location="dadapushEditNotification.ftl" name="edit" type="freemarker"/>
+  </notificationRecipient>
+</atlassian-plugin>
